@@ -8,3 +8,5 @@ build
 .classpath
 /main/
 /test/
+/.settings/
+/src/
