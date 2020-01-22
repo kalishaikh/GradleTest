@@ -6,3 +6,5 @@ build
 
 #Ignore eclipse's classpath. Everyone should have their own copy of classpath.
 .classpath
+/main/
+/test/
