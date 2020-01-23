@@ -1,12 +1,13 @@
 package venn;
 import javafx.scene.control.Button;
 import javafx.scene.layout.Background;
+import javafx.scene.layout.BorderPane;
 import javafx.application.Application;
 //import javafx.event.EventHandler;
 //import javafx.event.ActionEvent;
 import javafx.scene.Scene;
 import javafx.scene.paint.Color;
-//import javafx.scene.control.Button;
+import javafx.scene.control.Button;
 import javafx.scene.shape.Circle;
 //import javafx.scene.layout.StackPane;
 import javafx.scene.Group;
@@ -40,19 +41,22 @@ public class Main extends Application{
 		circle2.setStroke(Color.BLUE);
 		circle2.setFill(Color.rgb(255, 0, 0, 0.2));
 //		
-//		Button button =new Button("New Button");
-//		button.setVisible(true);
-//		Scene scene1 = new Scene(button, 200, 100);
-//		button.setBackground(Background.EMPTY);
-//        primaryStage.setScene(scene1);
-//        primaryStage.show();
+		Button button =new Button("New Button");
+		
+		Scene scene1 = new Scene(button, 200, 100);
+		button.setBackground(Background.EMPTY);
+        primaryStage.setScene(scene1);
+        primaryStage.show();
 
 //		//adds button to Venn Diagram Application 
 		
+        
+        
 		Group root = new Group();
 		
 		root.getChildren().add(circle1);
 		root.getChildren().add(circle2);
+		root.getChildren().add(button);
 		
 		Scene scene = new Scene(root, 600, 300);
 		primaryStage.setScene(scene);
