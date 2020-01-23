@@ -1,5 +1,6 @@
 package venn;
-
+import javafx.scene.control.Button;
+import javafx.scene.layout.Background;
 import javafx.application.Application;
 //import javafx.event.EventHandler;
 //import javafx.event.ActionEvent;
@@ -38,10 +39,15 @@ public class Main extends Application{
 		circle2.setRadius(100.0f);
 		circle2.setStroke(Color.BLUE);
 		circle2.setFill(Color.rgb(255, 0, 0, 0.2));
-		
-		//button =new Button();
-		//button.setText("click me");
-		//adds button to Venn Diagram Application 
+//		
+//		Button button =new Button("New Button");
+//		button.setVisible(true);
+//		Scene scene1 = new Scene(button, 200, 100);
+//		button.setBackground(Background.EMPTY);
+//        primaryStage.setScene(scene1);
+//        primaryStage.show();
+
+//		//adds button to Venn Diagram Application 
 		
 		Group root = new Group();
 		
