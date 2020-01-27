@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+C:\Users\jorra\OneDrive\Documents\School\York\Second Year\EECS 2311\GradleTest\.metadata\.plugins\org.eclipse.jdt.core
